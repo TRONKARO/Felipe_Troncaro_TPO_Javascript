@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Play - Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="#inicio" class="logo">Pixel Play</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PRESENTACIÓN / HERO -->
+    <section id="inicio">
+        <h1>Bienvenido a Pixel Play</h1>
+        <p class="hero-subtitle">Tu tienda de videojuegos en el centro comercial</p>
+        <p>Encontrá los últimos lanzamientos, consolas, accesorios y mucho más. Somos tu destino gaming definitivo con productos originales, garantía oficial y el mejor servicio.</p>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Pixel Play nació en 2020 con la misión de ofrecer la mejor experiencia gaming a toda la comunidad. Somos un equipo de apasionados por los videojuegos que entiende lo que los jugadores necesitan.</p>
+        <p>Ofrecemos asesoramiento personalizado, los mejores precios y un espacio donde la comunidad gamer puede reunirse, compartir experiencias y estar al día con las últimas novedades del mundo gaming.</p>
+        <p>Contamos con productos originales, garantía oficial y un servicio post-venta que nos diferencia. Nuestra prioridad es tu satisfacción.</p>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-grid">
+            <div class="producto-card">
+                <img src="images/ps5.jpg" alt="PlayStation 5 Pro" class="producto-img">
+                <h3>PlayStation 5 Pro</h3>
+                <p>Consola de última generación con gráficos 4K y carga ultrarrápida.</p>
+                <div class="precio">$649.999</div>
+            </div>
+            <div class="producto-card">
+                <img src="images/xbox.jpg" alt="Xbox Series X" class="producto-img">
+                <h3>Xbox Series X</h3>
+                <p>Potencia extrema con tecnología de renderizado por hardware.</p>
+                <div class="precio">$599.999</div>
+            </div>
+            <div class="producto-card">
+                <img src="images/switch.jpg" alt="Nintendo Switch OLED" class="producto-img">
+                <h3>Nintendo Switch OLED</h3>
+                <p>Consola híbrida con pantalla OLED mejorada de 7 pulgadas.</p>
+                <div class="precio">$449.999</div>
+            </div>
+            <div class="producto-card">
+                <img src="images/auriculares.jpg" alt="Auriculares Gaming" class="producto-img">
+                <h3>Auriculares Gaming</h3>
+                <p>Audio inmersivo 7.1 con micrófono profesional desmontable.</p>
+                <div class="precio">$89.999</div>
+            </div>
+            <div class="producto-card">
+                <img src="images/control.jpg" alt="Control DualSense" class="producto-img">
+                <h3>Control DualSense</h3>
+                <p>Control inalámbrico con retroalimentación háptica avanzada.</p>
+                <div class="precio">$79.999</div>
+            </div>
+            <div class="producto-card">
+                <img src="images/juegos.jpg" alt="Juegos" class="producto-img">
+                <h3>Juegos Últimos Lanzamientos</h3>
+                <p>Catálogo completo de los títulos más esperados del año.</p>
+                <div class="precio">Desde $15.999</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFORMACIÓN: HORARIOS, UBICACIÓN, CONTACTO -->
+    <section id="info">
+        <h2>Información</h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>Horarios</h3>
+                <p><strong>Lunes a Viernes:</strong><br>10:00 - 21:00</p>
+                <p><strong>Sábados y Domingos:</strong><br>11:00 - 22:00</p>
+            </div>
+            <div class="info-card">
+                <h3>Ubicación</h3>
+                <p><strong>Local 234</strong><br>Planta Baja<br>Centro Comercial<br>Buenos Aires, Argentina</p>
+            </div>
+            <div class="info-card">
+                <h3>Contacto Rápido</h3>
+                <p><strong>Teléfono:</strong><br>+54 11 XXXX-XXXX</p>
+                <p><strong>Email:</strong><br>info@pixelplay.com</p>
+                <p><strong>WhatsApp:</strong><br>+54 9 11 XXXX-XXXX</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO / FORMULARIO -->
+    <section id="contacto">
+        <h2>Envianos un Mensaje</h2>
+        <div class="contacto-container">
+            <div class="contacto-form">
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+            <div class="contacto-info">
+                <h3>Seguinos en Redes</h3>
+                <p><strong>Instagram:</strong> @pixelplay</p>
+                <p><strong>Facebook:</strong> /pixelplayar</p>
+                <p><strong>Twitter:</strong> @pixelplay_ar</p>
+                <p><strong>TikTok:</strong> @pixelplay</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Pixel Play - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

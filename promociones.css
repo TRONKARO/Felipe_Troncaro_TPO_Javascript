@@ -1,0 +1,300 @@
+/* HERO PROMOCIONES */
+#inicio-promo {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+    color: #ffffff;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inicio-promo h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#inicio-promo .hero-subtitle {
+    color: #e0e0e0;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* SOBRE PROMOCIONES */
+#sobre-promociones {
+    background: #fafafa;
+}
+
+.promociones-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.promo-item {
+    background: #ffffff;
+    padding: 30px;
+    border-left: 4px solid #1a1a1a;
+    border-radius: 4px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.promo-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.promo-item h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.promo-item p {
+    font-size: 16px;
+    color: #666666;
+}
+
+/* CALCULADORA */
+#calculadora {
+    background: #ffffff;
+}
+
+.calculadora-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.productos-seleccion h3,
+.resultados-section h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.productos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.producto-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    transition: background 0.3s;
+}
+
+.producto-item:hover {
+    background: #f0f0f0;
+}
+
+.producto-item label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.producto-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.producto-nombre {
+    font-weight: 500;
+    color: #1a1a1a;
+    flex: 1;
+}
+
+.producto-precio {
+    color: #7a7a7a;
+    font-size: 14px;
+    min-width: 100px;
+    text-align: right;
+}
+
+.cantidad {
+    width: 60px !important;
+    padding: 8px !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* RESULTADOS */
+.resultados-section {
+    background: #fafafa;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.carrito-detalle {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    min-height: 150px;
+    border: 1px solid #e0e0e0;
+}
+
+.carrito-detalle .vacio {
+    color: #999999;
+    font-style: italic;
+    margin: 0;
+}
+
+.carrito-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+}
+
+.carrito-item:last-child {
+    border-bottom: none;
+}
+
+.carrito-item .item-nombre {
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+.carrito-item .item-precio {
+    color: #666666;
+}
+
+/* RESUMEN DE TOTALES */
+.resumen-totales {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+.total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.total-item:last-of-type {
+    border-bottom: none;
+}
+
+.total-item span:first-child {
+    color: #666666;
+    font-weight: 500;
+}
+
+.total-item span:last-child {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.descuento-valor {
+    color: #d32f2f !important;
+    font-weight: 700 !important;
+}
+
+.promo-aplicada {
+    background: #f5f5f5;
+    padding: 12px !important;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.promo-aplicada span {
+    color: #2e7d32 !important;
+    font-size: 14px;
+}
+
+.total-final {
+    background: #1a1a1a;
+    color: #ffffff !important;
+    padding: 15px !important;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: none !important;
+}
+
+.total-final span:last-child {
+    color: #ffffff !important;
+}
+
+.ahorro-total {
+    text-align: center;
+    margin-top: 15px;
+    padding: 12px;
+    background: #e8f5e9;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #2e7d32;
+    font-weight: 600;
+    border: 1px solid #c8e6c9;
+}
+
+/* BOTONES */
+.btn-secundario {
+    width: 100%;
+    background: #666666 !important;
+    color: #ffffff !important;
+    padding: 12px !important;
+    border: none !important;
+    border-radius: 4px;
+    font-size: 16px !important;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-secundario:hover {
+    background: #4a4a4a !important;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .calculadora-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .promociones-info {
+        grid-template-columns: 1fr;
+    }
+
+    #inicio-promo h1 {
+        font-size: 36px;
+    }
+
+    .producto-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .producto-item label {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .producto-precio {
+        align-self: flex-end;
+    }
+}
