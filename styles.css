@@ -235,10 +235,20 @@ footer p {
     font-size: 14px;
 }
 
+
 /* RESPONSIVE */
+
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .nav-links {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
     }
 
     h1 {
@@ -262,13 +272,15 @@ footer p {
     section {
         padding: 60px 20px;
     }
+
     header {
         padding: 15px 0;
     }
+
     .producto-img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    margin-bottom: 20px;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 20px;
     }
 }
